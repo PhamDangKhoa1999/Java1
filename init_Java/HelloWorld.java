@@ -23,5 +23,6 @@ public class HelloWorld {
         System.out.println("secondNumber: ");
         int secondNumber = scanner.nextInt();
         System.out.println("Min = " +  Math.min(firtNumber, secondNumber));
+        scanner.close();
     }
 }

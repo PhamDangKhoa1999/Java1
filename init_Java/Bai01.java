@@ -25,5 +25,6 @@ public class Bai01 {
         System.out.println("Nhap mot canh cua hinh lap phuong: ");
         int x = scanner.nextInt();
         System.out.println("The tich hinh lap phuong la: " + Math.pow(x, 3));
+        scanner.close();
     }
 }
