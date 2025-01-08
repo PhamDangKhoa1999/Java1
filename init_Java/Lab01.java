@@ -2,7 +2,7 @@ package init_Java;
 
 import java.util.Scanner;
 
-public class Bai01 {
+public class Lab01 {
     public static void main(String[] ars)
     {
         Scanner scanner = new Scanner(System.in);
