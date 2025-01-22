@@ -1,6 +1,4 @@
-package init_Java;
-
-import java.lang.reflect.Array;
+package init_Java.Lab03;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -15,29 +13,29 @@ public class Lab03 {
         }
 
         Scanner scanner = new Scanner(System.in);
-        // System.out.printf("Nhap vao mot so nguyen bat ky lon hon 2: ");
-        // int i = scanner.nextInt();
-        // boolean isPrime = true;
-        // for( int j = 2; j < i-1 ; j++){
-        //     if (i%j==0) {
-        //         isPrime = false;
-        //         break;
-        //     }
-        // }
-        // if (isPrime == true) {
-        //     System.out.println("So vua nhap la so nguyen to");
-        // } else {
-        //     System.out.println("So vua nhap khong phai la so nguyen to");
-        // }
+        System.out.printf("Nhap vao mot so nguyen bat ky lon hon 2: ");
+        int i = scanner.nextInt();
+        boolean isPrime = true;
+        for( int j = 2; j < i-1 ; j++){
+            if (i%j==0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime == true) {
+            System.out.println("So vua nhap la so nguyen to");
+        } else {
+            System.out.println("So vua nhap khong phai la so nguyen to");
+        }
 
-        // System.out.printf("Nhap vao mot so nguyen bat ky : ");
-        // int x = scanner.nextInt();
-        // System.out.println("Bang cuu chuong cua so vua nhap la: ");
-        // for(int y = 0; y <=10; y++){
-        //     int result = x*y;
-        //     System.out.printf( "%d * %d = %d",x,y,result );
-        //     System.out.println();
-        // }
+        System.out.printf("Nhap vao mot so nguyen bat ky : ");
+        int x = scanner.nextInt();
+        System.out.println("Bang cuu chuong cua so vua nhap la: ");
+        for(int y = 0; y <=10; y++){
+            int result = x*y;
+            System.out.printf( "%d * %d = %d",x,y,result );
+            System.out.println();
+        }
 
         System.out.printf("Nhap vao so phan tu cua mang : ");
         int size = scanner.nextInt();
