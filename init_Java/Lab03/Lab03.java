@@ -53,11 +53,15 @@ public class Lab03 {
         Arrays.sort(array);
         System.out.println("Mang va nhap la: " + Arrays.toString(array));
         System.out.println();
+        
+        
         int max = array[0];
         for(int u = 0; u < size; u++){
             max = Math.max(max, array[u]);
         }
         System.out.println("Gia tri max cua mang la: " + max);
+        
+        
         int min = array[0];
         for (int t = 0; t < size; t++){
             min = Math.min(min, array[t]);
